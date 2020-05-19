@@ -3,18 +3,21 @@
     <head>
         <link rel="stylesheet" type="text/css" href="main.css">
         <script src="main.js"></script>
-        <title>Michaela's Happy Place</title>
+        <title>Happy Stuff</title>
     </head>
     <body>
         <div class="header">
-            <h1>Michaela's Happy Place</h1>
+            <h1>Happy Stuff</h1>
         </div>
         <div class="container">
             <div class="popup">
                 <div class="popup-content">
                     <h2 class="popup-title">Something to make you Smile!</h2>
                     <p class="popup-body">For when you need to see a picture of your friends, family, or cat!</p>
-                    <a href="javascript:getRandomCuteImage()" class="popup-button">Click Me!</a>
+                    <a href="javascript:getRandomQuote()" class="popup-button2">A Quote</a>
+                    <a href="javascript:getRandomCuteImage()" class="popup-button1">Family & Friends & Cat</a>
+                    <a href="javascript:getRandomMeme()" class="popup-button3">A Meme</a>
+                    <h2 id="textDisplay"></h2>
                     <div id="imageDisplay">
                         <!--Images displayed here-->
                     </div>
