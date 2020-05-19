@@ -64,8 +64,8 @@ body {
     margin-bottom: 2.1em;
   }
   
-  .popup-button {
-    display: block;
+  .popup-button1, .popup-button2, .popup-button3 {
+    display: inline-block;
     text-align: center;
     text-decoration: none;
     font-weight: 800;
@@ -80,11 +80,27 @@ body {
     background-size: 200% auto;
     color: white;
     box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
-    background-image: linear-gradient(to right, #EF629F 0%, #EECDA3 50%, #EF629F 100%);
+  
     transition: 0.5s;
     
   }  
 
-  .popup-button:hover{
+  .popup-button1{
+    background-image: linear-gradient(to right, #EF629F 0%, #EECDA3 50%, #EF629F 100%);
+  }
+
+  .popup-button2{
+    background-image: linear-gradient(to right, #00b09b 0%, #96c93d 50%, #00b09b 100%);
+  }
+
+  .popup-button3{
+    background-image: linear-gradient(to right, #12FFF7 0%, #B3FFAB 50%, #12FFF7 100%);
+  }
+
+  .popup-button1:hover, .popup-button2:hover, .popup-button3:hover{
     background-position: right center;
+  }
+
+  #textDisplay{
+    font-size: 25px; 
   }
